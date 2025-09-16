@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="acc6eefdf173445c8f02f4cc62b4d350" Name="Diagram1">
+        <EntityTypeShape EntityType="MLR4Model.CLIENT" Width="1.5" PointX="4" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MLR4Model.CONTRAT" Width="1.5" PointX="3.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MLR4Model.PAYE" Width="1.5" PointX="6.5" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MLR4Model.sysdiagram" Width="1.5" PointX="0.875" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MLR4Model.UTILISATEUR" Width="1.5" PointX="6.875" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MLR4Model.VOITURE" Width="1.5" PointX="1" PointY="1.125" IsExpanded="true" />
+        <AssociationConnector Association="MLR4Model.FK_CONTRAT_CLIENTS" ManuallyRouted="false" />
+        <AssociationConnector Association="MLR4Model.FK_CONTRAT_VOITURE" ManuallyRouted="false" />
+        <AssociationConnector Association="MLR4Model.FK_PAYE_CONTRAT" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
